@@ -24,7 +24,7 @@
   /* Fonts */
   --ff-sans: 'Outfit', sans-serif;
   --fw-normal: 400;
-  --fw-bold: 600;
+  --fw-bold: 700;
 
   /* Rest of vars */
   --rounded-xl: 0.75rem;
@@ -85,6 +85,10 @@ main {
   border-radius: var(--rounded-xl);
 }
 
+.card__content {
+  padding-inline: 1rem;
+}
+
 .card__title {
   font-size: var(--fs-xl);
   font-weight: var(--fw-bold);
@@ -94,5 +98,4 @@ main {
 .card__text {
   margin-block-start: 1rem;
   letter-spacing: var(--letter-spacing);
-  padding-inline: 1rem;
 }
